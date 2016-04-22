@@ -20,5 +20,19 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.test_2.v1.adls",
     "sha" : "b008e605b4baa95629e6d7105bd4e273d365aa0f",
     "languages" : [ "en" ]
-  } ]
+  },{
+    "id" : "openEHR-EHR-CLUSTER.specimen.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Specimen",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.specimen.v1.adls",
+    "sha" : "451dd85f1dd83cb86c1f8143f380af49e3abd6ef",
+    "languages" : [ "en" ]
+  },{
+    "id" : "openEHR-EHR-COMPOSITION.report.v1.0.0",
+    "rmType" : "COMPOSITION",
+    "name" : "Report",
+    "path" : "archetypes/openEHR-EHR-COMPOSITION.report.v1.adls",
+    "sha" : "e973a24ec96c2efccbbfa2b7f7f30df733c50c48",
+    "languages" : [ "en", "sl" ]
+  }]
 }
