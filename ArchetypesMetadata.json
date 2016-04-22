@@ -6,5 +6,12 @@
     "path" : "archetypes/openEHR-EHR-ACTION.imaging_exam.v1.adls",
     "sha" : "cdf817a1aac254c8bc4c51923bcc82d6138dd07e",
     "languages" : [ "en", "sl" ]
-  }]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.test.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "test",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.test.v1.adls",
+    "sha" : "e78e0531d1b9b9ec6f424521801d8906b42095fa",
+    "languages" : [ "en" ]
+  } ]
 }
