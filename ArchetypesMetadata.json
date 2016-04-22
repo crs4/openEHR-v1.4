@@ -13,14 +13,12 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.test.v1.adls",
     "sha" : "e78e0531d1b9b9ec6f424521801d8906b42095fa",
     "languages" : [ "en" ]
-  },{
-    "id" : "openEHR-EHR-OBSERVATION.blood_match.v1",
-    "rmType" : "OBSERVATION",
-    "name" : "Blood matching",
-    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adl",
-    "sha" : "a2f2e8ac2fb86384d9d69264e6b1a778de69f460",
-    "languages" : [ "en", "sl" ]
-  }
- ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.test_2.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "test_2",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.test_2.v1.adls",
+    "sha" : "b008e605b4baa95629e6d7105bd4e273d365aa0f",
+    "languages" : [ "en" ]
+  } ]
 }
-
