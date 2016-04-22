@@ -1,0 +1,98 @@
+archetype (adl_version=2.0.4; rm_release=1.0.2)
+    openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    
+description
+    copyright = <"">
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"">
+        >
+    >
+    lifecycle_state = <"unmanaged">
+
+definition
+    CLUSTER[id1] matches {    -- Prostatic cellular patterns
+        items matches {
+            ELEMENT[id3] occurrences matches {0..1} matches {    -- Poorly formed glands
+                value matches {
+                    DV_BOOLEAN[id4] matches {
+                        value matches {True, False; false}
+                    }
+                }
+            }
+            ELEMENT[id5] occurrences matches {0..1} matches {    -- Hypernephroid pattern
+                value matches {
+                    DV_BOOLEAN[id6] matches {
+                        value matches {True, False; false}
+                    }
+                }
+            }
+            ELEMENT[id7] occurrences matches {0..1} matches {    -- Small cell/signet ring
+                value matches {
+                    DV_BOOLEAN[id8] matches {
+                        value matches {True, False; false}
+                    }
+                }
+            }
+            ELEMENT[id9] occurrences matches {0..1} matches {    -- Cribiform pattern
+                value matches {
+                    DV_BOOLEAN[id10] matches {
+                        value matches {True, False; false}
+                    }
+                }
+            }
+            ELEMENT[id11] occurrences matches {0..1} matches {    -- Comedo-necrosis
+                value matches {
+                    DV_BOOLEAN[id12] matches {
+                        value matches {True, False}
+                    }
+                }
+            }
+            ELEMENT[id13] occurrences matches {0..1} matches {    -- Mucinous
+                value matches {
+                    DV_BOOLEAN[id14] matches {
+                        value matches {True, False; false}
+                    }
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"Prostatic cellular patterns">
+                description = <"Prostatic cellular patterns">
+            >
+            ["id3"] = <
+                text = <"Poorly formed glands">
+                description = <"Poorly formed glands">
+            >
+            ["id5"] = <
+                text = <"Hypernephroid pattern">
+                description = <"Hypernephroid pattern">
+            >
+            ["id7"] = <
+                text = <"Small cell/signet ring">
+                description = <"Small cell/signet ring">
+            >
+            ["id9"] = <
+                text = <"Cribiform pattern">
+                description = <"Cribiform pattern">
+            >
+            ["id11"] = <
+                text = <"Comedo-necrosis">
+                description = <"Comedo-necrosis">
+            >
+            ["id13"] = <
+                text = <"Mucinous">
+                description = <"Mucinous">
+            >
+        >
+    >
+
