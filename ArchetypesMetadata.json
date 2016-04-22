@@ -1,0 +1,10 @@
+{
+  "archetypes" : [ {
+    "id" : "openEHR-EHR-ACTION.imaging_exam.v1.0.0",
+    "rmType" : "ACTION",
+    "name" : "Imaging examination",
+    "path" : "archetypes/openEHR-EHR-ACTION.imaging_exam.v1.adls",
+    "sha" : "cdf817a1aac254c8bc4c51923bcc82d6138dd07e",
+    "languages" : [ "en", "sl" ]
+  }]
+}
