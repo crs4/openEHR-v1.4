@@ -13,5 +13,13 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.test.v1.adls",
     "sha" : "e78e0531d1b9b9ec6f424521801d8906b42095fa",
     "languages" : [ "en" ]
-  } ]
+  },{
+    "id" : "openEHR-EHR-OBSERVATION.blood_match.v1",
+    "rmType" : "OBSERVATION",
+    "name" : "Blood Match",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adl",
+    "sha" : "9ac21d306d8f0d6bdb4b2a0c4f6f708162fbaa13",
+    "languages" : [ "en", "sl" ]
+  }
+ ]
 }
