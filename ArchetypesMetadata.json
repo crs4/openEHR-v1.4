@@ -48,5 +48,8 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.test_3.v1.adls",
     "sha" : "e4d1e9357d1a1f3d7825416b0e25eb9d33d33cd8",
     "languages" : [ "en" ]
+  }, {
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
+    "sha" : "0976a8c433a95966a292891f997868e51569e108"
   } ]
 }
