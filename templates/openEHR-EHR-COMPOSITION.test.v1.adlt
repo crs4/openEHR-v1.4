@@ -51,15 +51,7 @@ The Sections component has been deliberately left unconstrained to maximise re-u
     other_contributors = <"Heath Frankel, Ocean Informatics, Australia", "Sam Heard, Ocean Informatics, Australia", "Sistine Barretto-Daniels, Ocean Informatics, Australia", "Hugh Leslie, Ocean Informatics, Australia", "Ian McNicoll, Ocean Informatics, Australia">
 
 definition
-    COMPOSITION[id1.1] matches {    -- Report
-        /context[id8]/other_context[id2]/items matches {
-            use_archetype CLUSTER[id11.1, openEHR-EHR-CLUSTER.ovl-test-prostatic_cellular_patterns-001.v1.0.0]
-            use_archetype CLUSTER[id11.1, openEHR-EHR-CLUSTER.ovl-test-prostatic_cellular_patterns-002.v1.0.0]
-        }
-        content matches {
-            use_archetype ACTION[id0.2, openEHR-EHR-ACTION.ovl-test-imaging_exam-001.v1.0.0]
-        }
-    }
+    COMPOSITION[id1.1]     -- Report
 
 terminology
     term_definitions = <
@@ -73,125 +65,6 @@ terminology
             ["id1.1"] = <
                 text = <"Poročilo">
                 description = <"*Document to communicate information to others, commonly in response to a request from another party.(en)">
-            >
-        >
-    >
-
-
----------------------------------------------------------------------------------
-template_overlay
-    openEHR-EHR-CLUSTER.ovl-test-prostatic_cellular_patterns-001.v1.0.0
-
-specialize
-    openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.0.0
-
-definition
-    CLUSTER[id1.1] matches {    -- Prostatic cellular patterns
-        items matches {
-            ELEMENT[id3.1] occurrences matches {0} matches {    -- Poorly formed glands
-                value matches {
-                    DV_BOOLEAN[id4.1] matches {
-                        value matches {True, False; false}
-                    }
-                }
-            }
-            ELEMENT[id5.1] occurrences matches {0} matches {    -- Hypernephroid pattern
-                value matches {
-                    DV_BOOLEAN[id6.1] matches {
-                        value matches {True, False; false}
-                    }
-                }
-            }
-        }
-    }
-
-terminology
-    term_definitions = <
-        ["en"] = <
-            ["id1.1"] = <
-                text = <"Prostatic cellular patterns">
-                description = <"Prostatic cellular patterns">
-            >
-            ["id3.1"] = <
-                text = <"Poorly formed glands">
-                description = <"Poorly formed glands">
-            >
-            ["id5.1"] = <
-                text = <"Hypernephroid pattern">
-                description = <"Hypernephroid pattern">
-            >
-        >
-    >
-
-
----------------------------------------------------------------------------------
-template_overlay
-    openEHR-EHR-ACTION.ovl-test-imaging_exam-001.v1.0.0
-
-specialize
-    openEHR-EHR-ACTION.imaging_exam.v1.0.0
-
-definition
-    ACTION[id1.1]     -- Imaging examination
-
-terminology
-    term_definitions = <
-        ["en"] = <
-            ["id1.1"] = <
-                text = <"Imaging examination">
-                description = <"Clinical activity about performing an imaging examination.">
-            >
-        >
-        ["sl"] = <
-            ["id1.1"] = <
-                text = <"*Imaging examination(en)">
-                description = <"*Clinical activity about performing an imaging examination.(en)">
-            >
-        >
-    >
-
-
----------------------------------------------------------------------------------
-template_overlay
-    openEHR-EHR-CLUSTER.ovl-test-prostatic_cellular_patterns-002.v1.0.0
-
-specialize
-    openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.0.0
-
-definition
-    CLUSTER[id1.1] matches {    -- Prostatic cellular patterns
-        items matches {
-            ELEMENT[id3.1] occurrences matches {0} matches {    -- Poorly formed glands
-                value matches {
-                    DV_BOOLEAN[id4.1] matches {
-                        value matches {True, False; false}
-                    }
-                }
-            }
-            ELEMENT[id5.1] occurrences matches {0} matches {    -- Hypernephroid pattern
-                value matches {
-                    DV_BOOLEAN[id6.1] matches {
-                        value matches {True, False; false}
-                    }
-                }
-            }
-        }
-    }
-
-terminology
-    term_definitions = <
-        ["en"] = <
-            ["id1.1"] = <
-                text = <"Prostatic cellular patterns">
-                description = <"Prostatic cellular patterns">
-            >
-            ["id3.1"] = <
-                text = <"Poorly formed glands">
-                description = <"Poorly formed glands">
-            >
-            ["id5.1"] = <
-                text = <"Hypernephroid pattern">
-                description = <"Hypernephroid pattern">
             >
         >
     >
