@@ -41,5 +41,14 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.adls",
     "sha" : "440e3fbb98f96e762b6783a28d57980602e77905",
     "languages" : [ "en" ]
-  } ]
+  },
+  {
+    "id" : "openEHR-EHR-OBSERVATION.blood_match.v1",
+    "rmType" : "OBSERVATION",
+    "name" : "Blood matching",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adl",
+    "sha" : "0976a8c433a95966a292891f997868e51569e108",
+    "languages" : [ "en" ]
+  }
+ ]
 }
