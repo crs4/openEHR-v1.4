@@ -54,7 +54,7 @@
     "rmType" : "OBSERVATION",
     "name" : "Blood matching",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
-    "sha" : "ef9f6834a55a47f4f4cadecc024fca85298108cf",
+    "sha" : "691208552a48192f75aacf97ba25f612515c21d5",
     "languages" : [ "en" ]
   }
  ]
