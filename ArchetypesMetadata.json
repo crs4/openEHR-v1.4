@@ -48,23 +48,19 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.test_3.v1.adls",
     "sha" : "e4d1e9357d1a1f3d7825416b0e25eb9d33d33cd8",
     "languages" : [ "en" ]
-  },
- {
+  }, {
     "id" : "openEHR-EHR-OBSERVATION.blood_match.v1",
     "rmType" : "OBSERVATION",
     "name" : "Blood matching",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
     "sha" : "691208552a48192f75aacf97ba25f612515c21d5",
     "languages" : [ "en" ]
-  }, 
-{
+  }, {
     "id" : "openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.0.0",
     "rmType" : "CLUSTER",
     "name" : "Microscopic findings - Prostate cancer",
-    "path" : "archetypes/openEHR-EHR-OBSERVATION.microscopy_prostate_carcinoma.v1.adls",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.adls",
     "sha" : "9334f788866b843b47207b08b66abd08aa12d0a9",
     "languages" : [ "en" ]
-  }
- ]
+  } ]
 }
-
