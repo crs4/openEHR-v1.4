@@ -59,10 +59,10 @@
   }, 
 {
     "id" : "openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.0.0",
-    "rmType" : “CLUSTER",
+    "rmType" : "CLUSTER",
     "name" : "Microscopic findings - Prostate cancer",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.microscopy_prostate_carcinoma.v1.adls",
-    "sha" : “ 9334f788866b843b47207b08b66abd08aa12d0a9",
+    "sha" : "9334f788866b843b47207b08b66abd08aa12d0a9",
     "languages" : [ "en" ]
   }
  ]
