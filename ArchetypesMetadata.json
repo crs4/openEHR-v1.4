@@ -62,5 +62,26 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.adls",
     "sha" : "9334f788866b843b47207b08b66abd08aa12d0a9",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.openEHR-EHR-CLUSTER.case_identification.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Case Identification",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.case_identification.v1.adls",
+    "sha" : "212521d1ab258877de0b36bf164961ebb6b3764f",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.openEHR-EHR-CLUSTER.dimensions.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Dimensions",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.dimensions.v1.adls",
+    "sha" : "06a648effe37ce0fccde4ed41856c414a82fbb6f",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.openEHR-EHR-CLUSTER.physical_properties.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Physical properties of an object",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.physical_properties.v1.adls",
+    "sha" : "d57e6c108617f0de7b7e1b72910a9fd92fbbb833",
+    "languages" : [ "en" ]
   } ]
 }
