@@ -84,7 +84,7 @@
     "sha" : "d57e6c108617f0de7b7e1b72910a9fd92fbbb833",
     "languages" : [ "en" ]
   },{
-    "id" : "openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0.adls",
+    "id" : "openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0",
     "rmType" : "OBSERVATION",
     "name" : "Histopathology test",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0.adls",
