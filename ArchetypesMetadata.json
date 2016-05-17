@@ -90,5 +90,12 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0.adls",
     "sha" : "ba429f7d0da062f878c47db0d07bea4d70341293",
     "languages" : [ "en" ]
+  },{
+    "id" : "openEHR-EHR-OBSERVATION.laboratory_test.v0",
+    "rmType" : "OBSERVATION",
+    "name" : "Labortory test",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.laboratory_test.v0"
+    "sha" : "56f43154b90ef5a4410d65ac9df40867c5b3d853",
+    "languages" : [ "en" ]
   } ]
 }
