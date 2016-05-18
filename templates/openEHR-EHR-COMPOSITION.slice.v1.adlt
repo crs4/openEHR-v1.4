@@ -1,0 +1,181 @@
+template (adl_version=2.0.5; rm_release=1.0.2; generated)
+    openEHR-EHR-COMPOSITION.slice.v1.0.0
+
+specialize
+    openEHR-EHR-COMPOSITION.report.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+    translations = <
+        ["sl"] = <
+            author = <
+                ["name"] = <"?">
+            >
+            language = <[ISO_639-1::sl]>
+        >
+        ["ar-sy"] = <
+            author = <
+                ["name"] = <"Mona Saleh">
+            >
+            language = <[ISO_639-1::ar-sy]>
+        >
+        ["es-ar"] = <
+            accreditation = <"physician">
+            author = <
+                ["name"] = <"Alan March">
+                ["organisation"] = <"Hospital Universitario Austral - Buenos Aires - Argentina">
+                ["email"] = <"alandmarch@gmail.com">
+            >
+            language = <[ISO_639-1::es-ar]>
+        >
+    >
+    
+description
+    copyright = <"�� openEHR Foundation">
+    details = <
+        ["ar-sy"] = <
+            keywords = <"����������">
+            language = <[ISO_639-1::ar-sy]>
+            misuse = <"">
+            purpose = <"���������� �������� (������ ���������� ��������������) ���������� ������ �������������� ���� ������ ���������������� ���� ������������.">
+            use = <"������������ ������������ �������� (������ ���������� ��������������) ������������ ������ ������������������ �������� ���������� ���������������� ���� ��������������. �� ���� �������������� ����������������, ���������� ������������������ �������� ��������������, �������� ������������, �������������� �������� ���� �������������� ���� �������������� �������� �������� ������������.
+�� ���� �������� �������� ���������������� �������� ������������ ���� ������������ �� �������� ���������������� ���������� ����:
+- ���������� ���������� �������������� ���������� ���������� ������������ �������� �������������� ���������� ������������ ���������� ������������������.
+- ���������� ���������� �������������������� ������ ������ ���������� ���������� ��������������������, �������� �������������� ������������������. �� ���� ������ ���� ������ ���� ���� �������� ������������ ������ ������ ��������������, �������� ���� �������� ���� ������������ ������ ������ �������� ���������� ������������������ ������������������������ ���� ������ ��������������, ���������� ������������������ �������� ������������ �������������� �������������� �������������� ���� ������������ ������������.
+�� ���� ���� �������� ������ ���������������� �������������� ������ �������� ������������ ������ �������� ������������ ������������ �������������� ������ ��������������.">
+        >
+        ["sl"] = <
+            keywords = <"*report(en)">
+            language = <[ISO_639-1::sl]>
+            misuse = <"">
+            purpose = <"*Generic container archetype to carry information that needs to be shared with others.(en)">
+            use = <"*Use as a generic archetype to carry information that needs to be shared with others.  Common examples are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.
+The Context component contains an optional unnamed slot that can be used to:
+- add optional content during templating to support a use-case specific requirements;
+- add EHR model demographic archetypes representing participating parties. While this may not be desired at implementation, this can be useful to demonstrate how demographics may be represented in an implementation ie as a support to clinical content requirements gathering or template review.
+The Sections component has been deliberately left unconstrained to maximise re-use of this archetype.(en)">
+        >
+        ["es-ar"] = <
+            keywords = <"informe">
+            language = <[ISO_639-1::es-ar]>
+            misuse = <"">
+            purpose = <"Arquetipo contenedor gen��rico para la portaci��n de informaci��n que necesita ser compartida con otros.">
+            use = <"Utilizar como un arquetipo gen��rico para portar informaci��n que necesita ser compartida con otros. Son ejemplos habituales: documentaci��n de la respuesta a una solicitud de informaci��n; el resultado de un test; actividades que han sido realizadas o eventos que han ocurrido.
+El componente de Contexto contiene un slot innominado que puede ser utilizado para:
+-agregar contenido opcional durante la confecci��n de una plantilla para apoyar requerimientos espec��ficos del caso de uso;
+-agregar arquetipos del modelo demogr��fico de openEHR que representen a las partes participantes. En tanto que esto puede no ser deseable durante una implementaci��n, puede ser ��til para demostrar como los datos demogr��ficos pueden ser utilizados en una implementaci��n (ejemplo: como apoyo a los requerimientos de recolecci��n de contenido cl��nico o revisi��n de una plantilla). El componente de Secciones ha sido dejado libre de restricciones a fin de maximizar el uso de este arquetipo.">
+        >
+        ["en"] = <
+            keywords = <"report">
+            language = <[ISO_639-1::en]>
+            misuse = <"">
+            purpose = <"Generic container archetype to carry information that needs to be shared with others.">
+            use = <"Use as a generic archetype to carry information that needs to be shared with others.  
+
+Common use cases are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.
+
+The Sections component has been deliberately left unconstrained to maximise re-use of this archetype.">
+        >
+    >
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["name"] = <"Heather Leslie">
+        ["organisation"] = <"Ocean Informatics">
+        ["email"] = <"heather.leslie@oceaninformatics.com">
+        ["date"] = <"2010-04-14">
+    >
+    other_contributors = <"Koray Atalag, University of Auckland, New Zealand", "Silje Ljosland Bakke, Bergen Hospital Trust, Norway (openEHR Editor)", "Sistine Barretto-Daniels, Ocean Informatics, Australia", "Lars Bitsch-Larsen, Haukeland University hospital, Norway", "Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway", "Heath Frankel, Ocean Informatics, Australia", "Sam Heard, Ocean Informatics, Australia", "Lars Karlsen, DIPS ASA, Norway", "Shinji Kobayashi, Kyoto University, Japan", "Heather Leslie, Ocean Informatics, Australia (openEHR Editor)", "Hugh Leslie, Ocean Informatics, Australia", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)", "Bjoern Naess, DIPS ASA, Norway", "Andrej Orel, Marand d.o.o., Slovenia">
+
+definition
+    COMPOSITION[id1.1] matches {    -- Report
+        content matches {
+            use_archetype OBSERVATION[id0.2, openEHR-EHR-OBSERVATION.ovl-slice-laboratory_test-histopathology-001.v0.0.1-alpha]
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["ar-sy"] = <
+            ["id1.1"] = <
+                text = <"����������">
+                description = <"���������� ������������ ������������������ ��������������, �������� ���������������� �������� ���� ������ ������.">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"Poro��ilo">
+                description = <"*Document to communicate information to others, commonly in response to a request from another party.(en)">
+            >
+        >
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Report">
+                description = <"Document to communicate information to others, commonly in response to a request from another party.">
+            >
+        >
+        ["es-ar"] = <
+            ["id1.1"] = <
+                text = <"Informe">
+                description = <"Documento para comunicar informaci��n a otros, comunmente en respuesta a la solicitud de un tercero.">
+            >
+        >
+    >
+
+
+---------------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-OBSERVATION.ovl-slice-laboratory_test-histopathology-001.v0.0.1-alpha
+
+specialize
+    openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0.0.1-alpha
+
+definition
+    OBSERVATION[id1.1.1] matches {    -- *Histopathology Test(en)
+        /data[id2]/events[id3]/data[id4]/items matches {
+            use_archetype CLUSTER[id66.0.1, openEHR-EHR-CLUSTER.ovl-slice-specimen-001.v0.0.1-alpha]
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["ar-sy"] = <
+            ["id1.1.1"] = <
+                text = <"*Histopathology Test(en)">
+                description = <"*The findings and interpretation of a histopathology  test performed on patient-related specimens.(en)">
+            >
+        >
+        ["en"] = <
+            ["id1.1.1"] = <
+                text = <"Histopathology test">
+                description = <"The findings and interpretation of a histopathology test performed on patient-related specimens.">
+            >
+        >
+    >
+
+
+---------------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-CLUSTER.ovl-slice-specimen-001.v0.0.1-alpha
+
+specialize
+    openEHR-EHR-CLUSTER.specimen.v0.0.1-alpha
+
+definition
+    CLUSTER[id1.1]     -- ������������
+
+terminology
+    term_definitions = <
+        ["ar-sy"] = <
+            ["id1.1"] = <
+                text = <"������������">
+                description = <"������������ ������������ �������� ������������">
+            >
+        >
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Specimen">
+                description = <"To record details of a laboratory specimen.">
+            >
+        >
+    >
+
