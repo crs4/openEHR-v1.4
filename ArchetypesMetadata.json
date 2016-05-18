@@ -2,7 +2,7 @@
   "archetypes" : [{
     "id" : "openEHR-EHR-CLUSTER.case_identification.v1.0.0",
     "rmType" : "CLUSTER",
-    "name" : "Case Identification,
+    "name" : "Case Identification",
     "path" : "archetypes/openEHR-EHR-CLUSTER.case_identification.v1.adls",
     "sha" : "212521d1ab258877de0b36bf164961ebb6b3764f",
     "languages" : [ "en" ]
