@@ -1,71 +1,8 @@
 {
-  "archetypes" : [ {
-    "id" : "openEHR-EHR-ACTION.imaging_exam.v1.0.0",
-    "rmType" : "ACTION",
-    "name" : "Imaging examination",
-    "path" : "archetypes/openEHR-EHR-ACTION.imaging_exam.v1.adls",
-    "sha" : "cdf817a1aac254c8bc4c51923bcc82d6138dd07e",
-    "languages" : [ "en", "sl" ]
-  }, {
-    "id" : "openEHR-EHR-CLUSTER.test.v1.0.0",
-    "rmType" : "CLUSTER",
-    "name" : "test",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.test.v1.adls",
-    "sha" : "e78e0531d1b9b9ec6f424521801d8906b42095fa",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-CLUSTER.test_2.v1.0.0",
-    "rmType" : "CLUSTER",
-    "name" : "test_2",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.test_2.v1.adls",
-    "sha" : "b008e605b4baa95629e6d7105bd4e273d365aa0f",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-CLUSTER.specimen.v1.0.0",
-    "rmType" : "CLUSTER",
-    "name" : "Specimen",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.specimen.v1.adls",
-    "sha" : "451dd85f1dd83cb86c1f8143f380af49e3abd6ef",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-COMPOSITION.report.v1.0.0",
-    "rmType" : "COMPOSITION",
-    "name" : "Report",
-    "path" : "archetypes/openEHR-EHR-COMPOSITION.report.v1.adls",
-    "sha" : "e973a24ec96c2efccbbfa2b7f7f30df733c50c48",
-    "languages" : [ "en", "sl" ]
-  }, {
-    "id" : "openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.0.0",
-    "rmType" : "CLUSTER",
-    "name" : "Prostatic cellular patterns",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.prostatic_cellular_patterns.v1.adls",
-    "sha" : "440e3fbb98f96e762b6783a28d57980602e77905",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-OBSERVATION.test_3.v1.0.0",
-    "rmType" : "OBSERVATION",
-    "name" : "test_3",
-    "path" : "archetypes/openEHR-EHR-OBSERVATION.test_3.v1.adls",
-    "sha" : "e4d1e9357d1a1f3d7825416b0e25eb9d33d33cd8",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-OBSERVATION.blood_match.v1",
-    "rmType" : "OBSERVATION",
-    "name" : "Blood matching",
-    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
-    "sha" : "691208552a48192f75aacf97ba25f612515c21d5",
-    "languages" : [ "en" ]
-  }, {
-    "id" : "openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.0.0",
-    "rmType" : "CLUSTER",
-    "name" : "Microscopic findings - Prostate cancer",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.adls",
-    "sha" : "9334f788866b843b47207b08b66abd08aa12d0a9",
-    "languages" : [ "en" ]
-  }, {
+  "archetypes" : [{
     "id" : "openEHR-EHR-CLUSTER.case_identification.v1.0.0",
     "rmType" : "CLUSTER",
-    "name" : "Case Identification",
+    "name" : "Case Identification,
     "path" : "archetypes/openEHR-EHR-CLUSTER.case_identification.v1.adls",
     "sha" : "212521d1ab258877de0b36bf164961ebb6b3764f",
     "languages" : [ "en" ]
@@ -77,13 +14,34 @@
     "sha" : "06a648effe37ce0fccde4ed41856c414a82fbb6f",
     "languages" : [ "en" ]
   }, {
-    "id" : "openEHR-EHR-CLUSTER.physical_properties.v1.0.0",
+    "id" : "openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Microscopic findings - Prostate cancer",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.microscopy_prostate_carcinoma.v1.adls",
+    "sha" : "9334f788866b843b47207b08b66abd08aa12d0a9",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.physical_properties.v0.0.1-alpha",
     "rmType" : "CLUSTER",
     "name" : "Physical properties of an object",
-    "path" : "archetypes/openEHR-EHR-CLUSTER.physical_properties.v1.adls",
-    "sha" : "d57e6c108617f0de7b7e1b72910a9fd92fbbb833",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.physical_properties.v0.adls",
+    "sha" : "ed0b1484303f2f384188c2585bae884b80f95165",
     "languages" : [ "en" ]
-  },{
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.specimen.v0.0.1-alpha",
+    "rmType" : "CLUSTER",
+    "name" : "Specimen",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.specimen.v0.adls",
+    "sha" : "66bc7d982bbda0f9372c9504bbfdf8c50e6d4206",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-COMPOSITION.report.v1.0.0",
+    "rmType" : "COMPOSITION",
+    "name" : "Report",
+    "path" : "archetypes/openEHR-EHR-COMPOSITION.report.v1.adls",
+    "sha" : "518fcc6be84210953d879bd5450c9aa5226a1121",
+    "languages" : [ "en" ]
+  }, {
     "id" : "openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0",
     "rmType" : "OBSERVATION",
     "name" : "Histopathology test",
