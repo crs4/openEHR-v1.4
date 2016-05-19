@@ -16,16 +16,7 @@ description
 
 definition
     CLUSTER[id1] matches {    -- Prostate cancer grading
-        items matches {
-            ELEMENT[id2] occurrences matches {1} matches {    -- Primary Gleason grade
-                value matches {
-                    DV_ORDINAL[id3] 
-                    DV_CODED_TEXT[id4] matches {
-                        defining_code matches {[ac1]}
-                    }
-                }
-            }
-        }
+        items
     }
 
 terminology
@@ -34,10 +25,6 @@ terminology
             ["id1"] = <
                 text = <"Prostate cancer grading">
                 description = <"Prostate cancer grading">
-            >
-            ["id2"] = <
-                text = <"Primary Gleason grade">
-                description = <"Most common pattern">
             >
             ["at1"] = <
                 text = <"Grade 1">
