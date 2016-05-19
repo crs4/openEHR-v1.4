@@ -15,13 +15,7 @@ description
     lifecycle_state = <"unmanaged">
 
 definition
-    CLUSTER[id1] matches {    -- Prostate cancer grading
-        items matches {
-            ELEMENT[id6] occurrences matches {1} matches {    -- Primary Gleason score
-                value
-            }
-        }
-    }
+    CLUSTER[id1]     -- Prostate cancer grading
 
 terminology
     term_definitions = <
@@ -53,10 +47,6 @@ terminology
             ["ac1"] = <
                 text = <"Gleason grading scores">
                 description = <"Gleason grading scores">
-            >
-            ["id6"] = <
-                text = <"Primary Gleason score">
-                description = <"Most common pattern">
             >
             ["ac2"] = <
                 text = <"Snomed">
