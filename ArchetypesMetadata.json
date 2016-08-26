@@ -1,10 +1,10 @@
 {
-  "archetypes" : [{
+  "archetypes" : [ {
     "id" : "openEHR-EHR-CLUSTER.case_identification.v1.0.0",
     "rmType" : "CLUSTER",
     "name" : "Case Identification",
     "path" : "archetypes/openEHR-EHR-CLUSTER.case_identification.v1.adls",
-    "sha" : "212521d1ab258877de0b36bf164961ebb6b3764f",
+    "sha" : "337e62f4acad57d5a375d6f831d53a69d08f82ee",
     "languages" : [ "en" ]
   }, {
     "id" : "openEHR-EHR-CLUSTER.dimensions.v1.0.0",
@@ -48,12 +48,19 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.laboratory_test-histopathology.v0.adls",
     "sha" : "ba429f7d0da062f878c47db0d07bea4d70341293",
     "languages" : [ "en" ]
-  },{
+  }, {
     "id" : "openEHR-EHR-OBSERVATION.laboratory_test.v0",
     "rmType" : "OBSERVATION",
     "name" : "Labortory test",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.laboratory_test.v0.adls",
     "sha" : "56f43154b90ef5a4410d65ac9df40867c5b3d853",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.prostate_cancer_grading.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Prostate cancer grading",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.prostate_cancer_grading.v1.adls",
+    "sha" : "26d983a01d5040cac5ab765b548d57818421b58a",
     "languages" : [ "en" ]
   } ]
 }
