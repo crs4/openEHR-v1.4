@@ -62,5 +62,12 @@
     "path" : "archetypes/openEHR-EHR-CLUSTER.prostate_cancer_grading.v1.adls",
     "sha" : "26d983a01d5040cac5ab765b548d57818421b58a",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.bioinformatic_resource.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Bioinformatic resource",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.bioinformatic_resource.v1.adls",
+    "sha" : "bbb11fc552131d416b96edb85cb787afbe4e7701",
+    "languages" : [ "en" ]
   } ]
 }
