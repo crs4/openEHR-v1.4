@@ -1,25 +1,25 @@
-archetype (adl_version=2.0.5; rm_release=1.0.2; generated)
+archetype (adl_version=2.0.5; rm_release=1.0.2)
     openEHR-EHR-CLUSTER.case_identification.v1.0.0
 
 language
     original_language = <[ISO_639-1::en]>
-    
+
 description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"08/12/2009">
+        ["name"] = <"Dr Ian McNicoll">
+        ["organisation"] = <"Ocean Informatics, United Kingdom">
+        ["email"] = <"ian.mcnicoll@oceaninformatics.com">
+    >
     copyright = <"�� openEHR Foundation">
     details = <
         ["en"] = <
             language = <[ISO_639-1::en]>
-            misuse = <"">
             purpose = <"To record details about the identification of a case.">
             use = <"">
+            misuse = <"">
         >
-    >
-    lifecycle_state = <"unmanaged">
-    original_author = <
-        ["name"] = <"Dr Ian McNicoll">
-        ["organisation"] = <"Ocean Informatics, United Kingdom">
-        ["email"] = <"ian.mcnicoll@oceaninformatics.com">
-        ["date"] = <"08/12/2009">
     >
 
 definition
@@ -89,10 +89,3 @@ A status of aborted means the patient was associated with the case number in err
             >
         >
     >
-    value_sets = <
-        ["ac1"] = <
-            id = <"ac1">
-            members = <"at5", "at6">
-        >
-    >
-
