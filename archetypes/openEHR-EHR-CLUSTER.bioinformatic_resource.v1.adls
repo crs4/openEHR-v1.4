@@ -15,7 +15,11 @@ description
     >
 
 definition
-    CLUSTER[id1] occurrences matches {1}     -- Bioinformatic resource
+    CLUSTER[id1] occurrences matches {1} matches {    -- Bioinformatic resource
+        items matches {
+            ITEM[id2] occurrences matches {1}     -- Test
+        }
+    }
 
 terminology
     term_definitions = <
@@ -23,6 +27,10 @@ terminology
             ["id1"] = <
                 text = <"Bioinformatic resource">
                 description = <"Bioinformatic resource">
+            >
+            ["id2"] = <
+                text = <"Test">
+                description = <"Test">
             >
         >
     >
