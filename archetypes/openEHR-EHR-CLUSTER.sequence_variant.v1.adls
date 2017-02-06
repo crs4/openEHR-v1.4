@@ -34,10 +34,17 @@ definition
                             ELEMENT[id12] occurrences matches {1}     -- URL
                         }
                     }
-                    ELEMENT[id13] occurrences matches {1} matches {    -- Genomic region
-                        value matches {
-                            DV_CODED_TEXT[id14] matches {
-                                defining_code matches {[ac1]}
+                    CLUSTER[id15] occurrences matches {1} matches {    -- Gene
+                        items matches {
+                            ELEMENT[id17] occurrences matches {1} matches {    -- Gene symbol
+                                value matches {
+                                    DV_TEXT[id18] 
+                                }
+                            }
+                            ELEMENT[id19] occurrences matches {1} matches {    -- Description
+                                value matches {
+                                    DV_TEXT[id20] 
+                                }
                             }
                         }
                     }
@@ -72,10 +79,6 @@ terminology
             ["id12"] = <
                 text = <"URL">
                 description = <"Network address">
-            >
-            ["id13"] = <
-                text = <"Genomic region">
-                description = <"The chromosome where the variation occurs">
             >
             ["at1"] = <
                 text = <"CHR 1">
@@ -180,6 +183,18 @@ terminology
             ["ac2"] = <
                 text = <"SNOMED CT">
                 description = <"A systematically organised computer processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting">
+            >
+            ["id15"] = <
+                text = <"Gene">
+                description = <"Gene">
+            >
+            ["id17"] = <
+                text = <"Gene symbol">
+                description = <"The name of the gene according to the HGVS nomenclature">
+            >
+            ["id19"] = <
+                text = <"Description">
+                description = <"Description">
             >
         >
     >
