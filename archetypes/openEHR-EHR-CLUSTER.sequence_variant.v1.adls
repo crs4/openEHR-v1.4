@@ -50,7 +50,7 @@ terminology
             >
             ["id4"] = <
                 text = <"Accession number">
-                description = <"A unique identifier to sequence record in a sequence repository">
+                description = <"A unique identifier to refer to a sequence record in a sequence repository">
             >
         >
     >
