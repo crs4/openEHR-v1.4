@@ -4,7 +4,7 @@
     "rmType" : "CLUSTER",
     "name" : "Case Identification",
     "path" : "archetypes/openEHR-EHR-CLUSTER.case_identification.v1.adls",
-    "sha" : "337e62f4acad57d5a375d6f831d53a69d08f82ee",
+    "sha" : "2ac55f0a4293872f74ca0f443bccbfabb8c4b09a",
     "languages" : [ "en" ]
   }, {
     "id" : "openEHR-EHR-CLUSTER.dimensions.v1.0.0",
@@ -67,7 +67,7 @@
     "rmType" : "CLUSTER",
     "name" : "Bioinformatic resource",
     "path" : "archetypes/openEHR-EHR-CLUSTER.bioinformatic_resource.v1.adls",
-    "sha" : "bbb11fc552131d416b96edb85cb787afbe4e7701",
+    "sha" : "dbdd2e202d4d51481805f5d3a8bac423cca00ff0",
     "languages" : [ "en" ]
   } ]
 }
