@@ -67,6 +67,7 @@ definition
                             ELEMENT[id27] occurrences matches {1}     -- URL
                         }
                     }
+                    ELEMENT[id31] occurrences matches {1}     -- Start position
                 }
             }
         }
@@ -234,6 +235,10 @@ terminology
             ["id27"] = <
                 text = <"URL">
                 description = <"Network address">
+            >
+            ["id31"] = <
+                text = <"Start position">
+                description = <"Number(s) referring to the nucleotide(s) affected">
             >
         >
     >
