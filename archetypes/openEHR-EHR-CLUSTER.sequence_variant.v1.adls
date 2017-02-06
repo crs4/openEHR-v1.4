@@ -31,6 +31,7 @@ definition
                                     DV_TEXT[id11] 
                                 }
                             }
+                            ELEMENT[id12] occurrences matches {1}     -- URL
                         }
                     }
                 }
@@ -60,6 +61,10 @@ terminology
             ["id10"] = <
                 text = <"Version number">
                 description = <"An attribute that provides a specific indication of the sequence used for annotation.">
+            >
+            ["id12"] = <
+                text = <"URL">
+                description = <"Network address">
             >
         >
     >
