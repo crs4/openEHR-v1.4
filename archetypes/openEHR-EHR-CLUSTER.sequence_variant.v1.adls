@@ -26,6 +26,11 @@ definition
                                     DV_TEXT[id5] 
                                 }
                             }
+                            ELEMENT[id10] occurrences matches {1} matches {    -- Version number
+                                value matches {
+                                    DV_TEXT[id11] 
+                                }
+                            }
                         }
                     }
                 }
@@ -51,6 +56,10 @@ terminology
             ["id4"] = <
                 text = <"Accession number">
                 description = <"A unique identifier to refer to a sequence record in a sequence repository">
+            >
+            ["id10"] = <
+                text = <"Version number">
+                description = <"An attribute that provides a specific indication of the sequence used for annotation.">
             >
         >
     >
