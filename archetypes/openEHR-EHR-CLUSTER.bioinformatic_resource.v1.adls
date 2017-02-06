@@ -15,11 +15,7 @@ description
     >
 
 definition
-    CLUSTER[id1] occurrences matches {1} matches {    -- Bioinformatic resource
-        items matches {
-            ITEM[id2] occurrences matches {1}     -- Test
-        }
-    }
+    CLUSTER[id1] occurrences matches {1}     -- Bioinformatic resource
 
 terminology
     term_definitions = <
