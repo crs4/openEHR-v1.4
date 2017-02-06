@@ -50,6 +50,25 @@ definition
                     }
                 }
             }
+            CLUSTER[id21] occurrences matches {1} matches {    -- Alternate description
+                items matches {
+                    CLUSTER[id22] occurrences matches {1} matches {    -- Variation identifier
+                        items matches {
+                            ELEMENT[id23] occurrences matches {1} matches {    -- Variant ID
+                                value matches {
+                                    DV_TEXT[id24] 
+                                }
+                            }
+                            ELEMENT[id25] occurrences matches {1} matches {    -- Version
+                                value matches {
+                                    DV_TEXT[id26] 
+                                }
+                            }
+                            ELEMENT[id27] occurrences matches {1}     -- URL
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -195,6 +214,26 @@ terminology
             ["id19"] = <
                 text = <"Description">
                 description = <"Description">
+            >
+            ["id21"] = <
+                text = <"Alternate description">
+                description = <"Alternate description">
+            >
+            ["id22"] = <
+                text = <"Variation identifier">
+                description = <"Variation identifier">
+            >
+            ["id23"] = <
+                text = <"Variant ID">
+                description = <"Variant ID">
+            >
+            ["id25"] = <
+                text = <"Version">
+                description = <"Version">
+            >
+            ["id27"] = <
+                text = <"URL">
+                description = <"Network address">
             >
         >
     >
