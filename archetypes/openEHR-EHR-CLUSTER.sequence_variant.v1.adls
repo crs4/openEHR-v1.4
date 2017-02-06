@@ -34,6 +34,13 @@ definition
                             ELEMENT[id12] occurrences matches {1}     -- URL
                         }
                     }
+                    ELEMENT[id13] occurrences matches {1} matches {    -- Genomic region
+                        value matches {
+                            DV_CODED_TEXT[id14] matches {
+                                defining_code matches {[ac1]}
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -65,6 +72,110 @@ terminology
             ["id12"] = <
                 text = <"URL">
                 description = <"Network address">
+            >
+            ["id13"] = <
+                text = <"Genomic region">
+                description = <"The chromosome where the variation occurs">
+            >
+            ["at1"] = <
+                text = <"CHR 1">
+                description = <"Chromosome 1">
+            >
+            ["at2"] = <
+                text = <"CHR 2">
+                description = <"Chromosome 2">
+            >
+            ["at3"] = <
+                text = <"CHR 3">
+                description = <"Chromosome 3">
+            >
+            ["at4"] = <
+                text = <"CHR 4">
+                description = <"Chromosome 4">
+            >
+            ["at5"] = <
+                text = <"CHR 5">
+                description = <"Chromosome 5">
+            >
+            ["at6"] = <
+                text = <"CHR 6">
+                description = <"Chromosome 6">
+            >
+            ["at7"] = <
+                text = <"CHR 7">
+                description = <"Chromosome 7">
+            >
+            ["at8"] = <
+                text = <"CHR 8">
+                description = <"Chromosome 8">
+            >
+            ["at9"] = <
+                text = <"CHR 9">
+                description = <"Chromosome 9">
+            >
+            ["at10"] = <
+                text = <"CHR 10">
+                description = <"Chromosome 10">
+            >
+            ["at11"] = <
+                text = <"CHR 11">
+                description = <"Chromosome 11">
+            >
+            ["at12"] = <
+                text = <"CHR 12">
+                description = <"Chromosome 12">
+            >
+            ["at13"] = <
+                text = <"CHR 13">
+                description = <"Chromosome 13">
+            >
+            ["at14"] = <
+                text = <"CHR 14">
+                description = <"Chromosome 14">
+            >
+            ["at15"] = <
+                text = <"CHR 15">
+                description = <"Chromosome 15">
+            >
+            ["at16"] = <
+                text = <"CHR 16">
+                description = <"Chromosome 16">
+            >
+            ["at17"] = <
+                text = <"CHR 17">
+                description = <"Chromosome 17">
+            >
+            ["at18"] = <
+                text = <"CHR 18">
+                description = <"Chromosome 18">
+            >
+            ["at19"] = <
+                text = <"CHR 19">
+                description = <"Chromosome 19">
+            >
+            ["at20"] = <
+                text = <"CHR 20">
+                description = <"Chromosome 20">
+            >
+            ["at21"] = <
+                text = <"CHR 21">
+                description = <"Chromosome 21">
+            >
+            ["at22"] = <
+                text = <"CHR 22">
+                description = <"Chromosome 22">
+            >
+            ["at23"] = <
+                text = <"CHR X">
+                description = <"Chromosome X">
+            >
+            ["at24"] = <
+                text = <"CHR Y">
+                description = <"Chromosome Y">
+            >
+            ["ac1"] = <
+                text = <"Genomic region">
+                description = <"List of human chromosomes">
             >
         >
     >
