@@ -177,5 +177,14 @@ terminology
                 text = <"Genomic region">
                 description = <"List of human chromosomes">
             >
+            ["ac2"] = <
+                text = <"SNOMED CT">
+                description = <"A systematically organised computer processable collection of medical terms providing codes, terms, synonyms and definitions used in clinical documentation and reporting">
+            >
+        >
+    >
+    term_bindings = <
+        ["snomed_ct"] = <
+            ["ac2"] = <http://www.snomed.org/snomed-ct>
         >
     >
