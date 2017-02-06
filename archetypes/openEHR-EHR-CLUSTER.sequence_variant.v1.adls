@@ -1,0 +1,56 @@
+archetype (adl_version=2.0.4; rm_release=1.0.2)
+    openEHR-EHR-CLUSTER.sequence_variant.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+
+description
+    lifecycle_state = <"unmanaged">
+    copyright = <"">
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"">
+        >
+    >
+
+definition
+    CLUSTER[id1] occurrences matches {1} matches {    -- Sequence variant
+        items matches {
+            CLUSTER[id2] occurrences matches {1} matches {    -- Genomic location
+                items matches {
+                    CLUSTER[id3] occurrences matches {1} matches {    -- Reference sequence
+                        items matches {
+                            ELEMENT[id4] occurrences matches {1} matches {    -- Accession number
+                                value matches {
+                                    DV_TEXT[id5] 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"Sequence variant">
+                description = <"Sequence variant">
+            >
+            ["id2"] = <
+                text = <"Genomic location">
+                description = <"The position in respect to a genomic or coding sequence">
+            >
+            ["id3"] = <
+                text = <"Reference sequence">
+                description = <"A sequence file that is used as a reference to describe variants that are present in a sequence analysed">
+            >
+            ["id4"] = <
+                text = <"Accession number">
+                description = <"A unique identifier to sequence record in a sequence repository">
+            >
+        >
+    >
