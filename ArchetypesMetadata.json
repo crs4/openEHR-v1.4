@@ -67,7 +67,14 @@
     "rmType" : "CLUSTER",
     "name" : "Bioinformatic resource",
     "path" : "archetypes/openEHR-EHR-CLUSTER.bioinformatic_resource.v1.adls",
-    "sha" : "dbdd2e202d4d51481805f5d3a8bac423cca00ff0",
+    "sha" : "6d7533407c1515440d40cb683acb1b142e5ce9d2",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.sequence_variant.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Sequence variant",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.sequence_variant.v1.adls",
+    "sha" : "33d55ee98b99ec74a445b60a55bbb47d0a74d75a",
     "languages" : [ "en" ]
   } ]
 }
